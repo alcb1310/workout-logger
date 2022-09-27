@@ -30,5 +30,36 @@ This is a python command line application in which it will prompt you what exerc
 - SHEETY_API_BEARER_TOKEN
     - Inside your poject there is an **Authentication** tab, there you select the Bearer(Token) option and give your own Token 
 
+### Installation
+
+Make sure you have the latest version of python installed on your machine:
+'''
+python --version
+'''
+if it doesn't work, you can use
+'''
+python3 --version
+'''
+if you don't have python installed or your version is less than 3.10.5 you will need to download and install [Python](https://www.python.org/downloads/)
+
+Once you've verified you got the latest version of Python installed then proceed to clone this repository, and inside the application directory run the following command:
+'''
+python3 -m venv venv
+'''
+
+To install all required modules for the app to work, run
+'''
+pip install -r requirements.txt
+'''
+
+And finally on the application root folder, create your .env file with the environment variables described earlier
+
+To run the application, open your terminal and run
+'''
+python3 main.py
+'''
+
+Follow the instructions and go to your google drive and look the spreadsheet being updated with the info you provided
+
 [<img src="./images/icons8-linkedin-2-48.png" alt="LinkedIn" width="25" />](https://www.linkedin.com/in/andres-court-benitez-11ab6613b)
 [<img src="./images/icons8-twitter-48.png" alt="Twitter" width="25" />](https://twitter.com/alcb1310)
