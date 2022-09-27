@@ -1,5 +1,9 @@
 from dotenv_config import Config
 
+"""
+Reads the environment variables and places them in python variables which we can use later on
+"""
+
 config = Config('.env')
 
 nutrition_api_key = config('NUTRITION_API_KEY')

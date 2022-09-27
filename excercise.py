@@ -1,6 +1,10 @@
 import requests
 from environment import *
 
+"""
+Connects to the nutritionisx api to get the information required from the sentece the user entered
+"""
+
 headers = {
     "x-app-id": nutrition_api_appid,
     'x-app-key': nutrition_api_key
