@@ -8,10 +8,10 @@ headers = {
 
 body = {
     "query": input("Tell me which exercises you did: "),
-    "gender": "male",
-    "weight_kg": 81,
-    "height_cm": 168,
-    "age": 47
+    "gender": nutrition_gener,
+    "weight_kg": nutrition_weight,
+    "height_cm": nutrition_height_cm,
+    "age": nutrition_age
 }
 
 response = requests.post(
