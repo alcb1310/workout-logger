@@ -1,2 +1,3 @@
-from environment import *
+from excercise import excercise
 
+print(excercise)
