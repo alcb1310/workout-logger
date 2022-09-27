@@ -25,6 +25,10 @@ This is a python command line application in which it will prompt you what exerc
     - The height of the person in cm 
 - NUTRITION_AGE
     - The age of the person
+- SHEETY_API_END_POINT
+    - You will need to create a new [sheety api](https://sheety.co/) by signing in with your google account, you must grant access to read and write to your spreadsheets in order for this app to work.  Once you are done creating the account you will need to create a project by giving it a link to an existing spreadsheet in your google drive and only then you will have your end point
+- SHEETY_API_BEARER_TOKEN
+    - Inside your poject there is an **Authentication** tab, there you select the Bearer(Token) option and give your own Token 
 
 [<img src="./images/icons8-linkedin-2-48.png" alt="LinkedIn" width="25" />](https://www.linkedin.com/in/andres-court-benitez-11ab6613b)
 [<img src="./images/icons8-twitter-48.png" alt="Twitter" width="25" />](https://twitter.com/alcb1310)
