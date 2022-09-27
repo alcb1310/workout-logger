@@ -1,5 +1,10 @@
 # WORKOUT LOGGER
 
+![Freelancer](https://img.shields.io/badge/Freelancer-29B2FE?style=for-the-badge&logo=Freelancer&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+\
+![50%](https://progress-bar.dev/100)
+
 ## Description
 
 This is a python command line application in which it will prompt you what exercises did you do today, and after you've written them in a plain english sentence, the application will read it and decifer what exercise did you do for how long and how many calories did it used.  For this application to work we need to pass in some parameters as environment variables
@@ -20,3 +25,6 @@ This is a python command line application in which it will prompt you what exerc
     - The height of the person in cm 
 - NUTRITION_AGE
     - The age of the person
+
+[<img src="./images/icons8-linkedin-2-48.png" alt="LinkedIn" width="25" />](https://www.linkedin.com/in/andres-court-benitez-11ab6613b)
+[<img src="./images/icons8-twitter-48.png" alt="Twitter" width="25" />](https://twitter.com/alcb1310)
